@@ -1,0 +1,25 @@
+.section {
+  background-color: hsl(0, 0%, 98%);
+  display: flex;
+}
+.section .container {
+  display: flex;
+  align-items: center;
+}
+.image-container {
+  flex: 3;
+}
+.mobiles-img {
+  height: 700px;
+}
+.text h1 {
+  margin-bottom: 40px;
+  margin-top: -200px;
+  font-size: 50px;
+  font-weight: 400;
+}
+.text p {
+  margin-bottom: 80px;
+  font-size: 18px;
+  opacity: 0.8;
+}

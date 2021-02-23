@@ -1,0 +1,78 @@
+.grey-section {
+  background-color: hsl(220, 16%, 96%);
+}
+.grey-section h1 {
+  padding-top: 70px;
+  font-weight: 400;
+  font-size: 39px;
+  margin-bottom: 23px;
+}
+.grey-section p {
+  font-size: 17px;
+  opacity: 0.8;
+  max-width: 550px;
+  line-height: 29px;
+  margin-bottom: 60px;
+}
+.row {
+  display: flex;
+}
+.row p {
+  font-size: 15px;
+}
+.column {
+  flex: 1;
+}
+.column {
+  margin-right: 50px;
+}
+.column:last-of-type {
+  margin-right: 0px;
+}
+.grey-section .column img {
+  margin-bottom: 22px;
+}
+.grey-section .column h3 {
+  margin-bottom: 22px;
+  font-size: 20px;
+  font-weight: 400;
+}
+.white {
+  background-color: hsl(0, 0%, 98%);
+  padding-bottom: 75px;
+}
+.white img {
+  max-width: 100%;
+  height: 188px;
+  width: 100%;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+.white h2 {
+  padding-top: 60px;
+  font-size: 40px;
+  opacity: 0.8;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+.white .container > div {
+  display: flex;
+}
+.white .container > div .box-images {
+  flex: 1;
+  background-color: white;
+  margin-right: 30px;
+  border-radius: 10px;
+}
+.white p {
+  font-size: 13px;
+  padding: 8px 20px;
+}
+.white h3 {
+  font-size: 17px;
+  padding: 5px 20px;
+}
+.white p:last-of-type {
+  padding: 10px 20px 30px 20px;
+  font-size: 15px;
+}
